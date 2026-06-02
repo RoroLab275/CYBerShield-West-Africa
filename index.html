@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CYBerShield West Africa</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">
+      <div class="logo-icon">🛡️</div>
+      <div>
+        <h2>CYBerShield</h2>
+        <p>West Africa</p>
+      </div>
+    </div>
+
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#checker">Check Message</a>
+      <a href="#report">Report Scam</a>
+      <a href="#dashboard">Dashboard</a>
+      <a href="#learn">Learn</a>
+    </nav>
+
+    <a href="#report" class="nav-button">Report Scam</a>
+    <button class="menu-button" onclick="toggleMobileMenu()">☰</button>
+    <div id="mobileMenu" class="mobile-menu">
+  <a href="#home" onclick="closeMobileMenu()">Home</a>
+  <a href="#checker" onclick="closeMobileMenu()">Check Message</a>
+  <a href="#report" onclick="closeMobileMenu()">Report Scam</a>
+  <a href="#dashboard" onclick="closeMobileMenu()">Dashboard</a>
+  <a href="#learn" onclick="closeMobileMenu()">Learn</a>
+</div>
+  </header>
+
+  <main>
+    <section id="home" class="hero-section">
+      <div class="hero-content">
+        <span class="tagline">ECOWAS Cyber Safety Prototype</span>
+
+        <h1>Stop Online Scams Before They Spread</h1>
+
+        <p>
+          CYBerShield West Africa helps citizens report scams, verify suspicious messages,
+          receive alerts, and learn simple Cyber safety practices across the ECOWAS region.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#checker" class="primary-button">Check a Message</a>
+          <a href="#report" class="secondary-button">Report a Scam</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+  <div class="security-preview-card">
+    <div class="security-preview-header">
+      <div>
+        <span class="alert-label">Live Threat Preview</span>
+        <h3>CYBerShield Alert Center</h3>
+      </div>
+      <div class="pulse-dot"></div>
+    </div>
+
+    <div class="preview-alert high-preview">
+      <div>
+        <strong>WhatsApp Code Scam</strong>
+        <p>Verification code request detected</p>
+      </div>
+      <span>High</span>
+    </div>
+
+    <div class="preview-alert medium-preview">
+      <div>
+        <strong>Fake Job Processing Fee</strong>
+        <p>Payment before interview warning</p>
+      </div>
+      <span>Medium</span>
+    </div>
+
+    <div class="preview-alert high-preview">
+      <div>
+        <strong>Mobile Money Reversal</strong>
+        <p>PIN and OTP request detected</p>
+      </div>
+      <span>High</span>
+    </div>
+
+    <div class="preview-footer">
+      <div>
+        <strong>1,240+</strong>
+        <p>Demo reports</p>
+      </div>
+      <div>
+        <strong>15</strong>
+        <p>Countries</p>
+      </div>
+      <div>
+        <strong>6</strong>
+        <p>Threat types</p>
+      </div>
+    </div>
+  </div>
+</div>
+    </section>
+        <section class="stats-section">
+      <div class="stat-card">
+        <h3>1,240+</h3>
+        <p>Scam Reports</p>
+        <span>Community-submitted alerts</span>
+      </div>
+
+      <div class="stat-card">
+        <h3>15</h3>
+        <p>ECOWAS Countries</p>
+        <span>Designed for regional collaboration</span>
+      </div>
+
+      <div class="stat-card">
+        <h3>6</h3>
+        <p>Scam Categories</p>
+        <span>Mobile money, phishing, fake jobs and more</span>
+      </div>
+
+      <div class="stat-card">
+        <h3>Real-Time</h3>
+        <p>Cyber Alerts</p>
+        <span>Early warnings from user reports</span>
+      </div>
+    </section>
+        <section class="how-section">
+      <div class="section-heading">
+        <span>How It Works</span>
+        <h2>Simple steps to stop scams early</h2>
+        <p>
+          CYBerShield West Africa turns community reports into useful scam alerts
+          and practical cyber safety education.
+        </p>
+      </div>
+
+      <div class="how-grid">
+        <div class="how-card">
+          <div class="how-icon">📢</div>
+          <h3>1. Report</h3>
+          <p>
+            Submit suspicious messages, phone numbers, links, social media accounts,
+            wallet IDs, or fake job and investment offers.
+          </p>
+        </div>
+
+        <div class="how-card">
+          <div class="how-icon">🔍</div>
+          <h3>2. Verify</h3>
+          <p>
+            Paste a suspicious message into the checker to identify warning signs
+            such as OTP requests, fake links, urgency, or payment demands.
+          </p>
+        </div>
+
+        <div class="how-card">
+          <div class="how-icon">🛡️</div>
+          <h3>3. Learn & Alert Others</h3>
+          <p>
+            Receive safety tips, view scam trends, and help protect schools,
+            churches, youth groups, businesses, and communities.
+          </p>
+        </div>
+      </div>
+    </section>
+        <section class="alerts-section">
+      <div class="section-heading">
+        <span>Live Scam Alerts</span>
+        <h2>Common threats reported across West Africa</h2>
+        <p>
+          These examples show the types of scams CYBerShield can help citizens
+          recognize, report, and avoid.
+        </p>
+      </div>
+
+      <div class="alerts-grid">
+        <div class="scam-alert-card high-risk">
+          <div class="risk-badge">High Risk</div>
+          <h3>Mobile Money Reversal Scam</h3>
+          <p>
+            Scammers claim they mistakenly sent money to your account and ask for
+            your mobile money PIN or OTP to reverse the transaction.
+          </p>
+          <ul>
+            <li>Never share your PIN or OTP.</li>
+            <li>Call your provider directly.</li>
+            <li>Do not approve unknown prompts.</li>
+          </ul>
+        </div>
+
+        <div class="scam-alert-card medium-risk">
+          <div class="risk-badge">Medium Risk</div>
+          <h3>Fake Job Processing Fee</h3>
+          <p>
+            Fraudsters send fake job offers and ask applicants to pay a processing,
+            training, or recruitment fee before an interview.
+          </p>
+          <ul>
+            <li>Verify the company website.</li>
+            <li>Do not pay before interview.</li>
+            <li>Check the recruiter’s email address.</li>
+          </ul>
+        </div>
+
+        <div class="scam-alert-card high-risk">
+          <div class="risk-badge">High Risk</div>
+          <h3>WhatsApp Code Takeover</h3>
+          <p>
+            Attackers ask for your WhatsApp verification code, then use it to take
+            over your account and scam your contacts.
+          </p>
+          <ul>
+            <li>Never share verification codes.</li>
+            <li>Enable two-step verification.</li>
+            <li>Warn contacts if compromised.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+        <section id="checker" class="checker-section">
+      <div class="checker-container">
+        <div class="checker-left">
+          <span class="section-tag">Scam Checker</span>
+          <h2>Check a suspicious message</h2>
+          <p>
+            Paste an SMS, WhatsApp message, email, or social media message.
+            CYBerShield will scan for common scam warning signs such as OTP requests,
+            suspicious links, payment demands, and urgency.
+          </p>
+
+          <div class="sample-buttons">
+            <button onclick="useSampleMessage('momo')">Mobile Money Scam</button>
+            <button onclick="useSampleMessage('job')">Fake Job Scam</button>
+            <button onclick="useSampleMessage('crypto')">Crypto Scam</button>
+            <button onclick="useSampleMessage('whatsapp')">WhatsApp Code Scam</button>
+          </div>
+        </div>
+
+        <div class="checker-box">
+          <label for="messageInput">Paste suspicious message</label>
+
+          <textarea
+            id="messageInput"
+            placeholder="Example: Congratulations! You have won a prize. Click this link and send your OTP to claim now."
+          ></textarea>
+
+          <div class="checker-actions">
+            <button onclick="checkMessage()" class="primary-button">Check Message</button>
+            <button onclick="clearMessage()" class="clear-button">Clear</button>
+          </div>
+
+          <div id="resultBox" class="result-box hidden">
+  <div class="result-top">
+    <span id="riskBadge" class="risk-badge-result">Risk</span>
+    <strong id="likelyType">Likely Scam Type</strong>
+  </div>
+
+  <div class="confidence-box">
+    <div class="confidence-top">
+      <span>Threat Confidence</span>
+      <strong id="confidenceScore">0%</strong>
+    </div>
+
+    <div class="confidence-bar">
+      <div id="confidenceFill" class="confidence-fill"></div>
+    </div>
+  </div>
+
+  <p id="warningSigns"></p>
+  <p id="safetyAdvice"></p>
+  <button onclick="reportCheckedMessage()" class="report-this-button">
+  Report This Message
+</button>
+</div>
+
+            <p id="warningSigns"></p>
+            <p id="safetyAdvice"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="report" class="report-section">
+  <div class="section-heading">
+    <span>Report a Scam</span>
+    <h2>Help protect others in your community</h2>
+    <p>
+      Submit suspicious messages, phone numbers, links, social media accounts,
+      or fake offers. Your report helps create early warnings for others.
+    </p>
+  </div>
+
+  <div class="report-container">
+    <form class="report-form" onsubmit="submitReport(event)">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="country">Country</label>
+          <select id="country" required>
+            <option value="">Select country</option>
+            <option>Ghana</option>
+            <option>Nigeria</option>
+            <option>Togo</option>
+            <option>Benin</option>
+            <option>Côte d’Ivoire</option>
+            <option>Liberia</option>
+            <option>Sierra Leone</option>
+            <option>The Gambia</option>
+            <option>Senegal</option>
+            <option>Guinea</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="city">City / Region</label>
+          <input type="text" id="city" placeholder="Example: Accra, Kumasi, Lagos" required />
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="scamType">Scam Type</label>
+          <select id="scamType" required>
+            <option value="">Select scam type</option>
+            <option>Mobile Money Fraud</option>
+            <option>WhatsApp Code Takeover</option>
+            <option>Phishing Link</option>
+            <option>Fake Job Offer</option>
+            <option>Fake Investment or Crypto Scam</option>
+            <option>Prize or Lottery Scam</option>
+            <option>Romance Scam</option>
+            <option>Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="platform">Platform Used</label>
+          <select id="platform" required>
+            <option value="">Select platform</option>
+            <option>WhatsApp</option>
+            <option>SMS</option>
+            <option>Phone Call</option>
+            <option>Facebook</option>
+            <option>Instagram</option>
+            <option>TikTok</option>
+            <option>Telegram</option>
+            <option>Email</option>
+            <option>Website</option>
+            <option>Other</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="evidence">Suspicious Message, Number, Link, or Account</label>
+        <textarea
+          id="evidence"
+          placeholder="Paste the suspicious message, phone number, link, wallet ID, account name, or describe what happened."
+          required
+        ></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="contact">Optional Contact</label>
+        <input type="text" id="contact" placeholder="Email or phone number, if you want follow-up" />
+      </div>
+
+     <div class="upload-box">
+  <strong>Screenshot Upload</strong>
+  <p>Add a screenshot of the suspicious message, account, link, or transaction.</p>
+
+  <input
+    type="file"
+    id="screenshotUpload"
+    accept="image/*"
+    onchange="previewScreenshot(event)"
+  />
+
+  <div id="screenshotPreviewBox" class="screenshot-preview-box hidden">
+    <img id="screenshotPreview" alt="Screenshot preview" />
+    <button type="button" onclick="removeScreenshot()" class="remove-screenshot-button">
+      Remove Screenshot
+    </button>
+  </div>
+</div>
+      <div class="form-button-row">
+  <button type="submit" class="submit-report-button">Submit Scam Report</button>
+
+  <button type="button" onclick="clearReportForm()" class="clear-form-button">
+    Clear Form
+  </button>
+</div>
+      <p id="reportSuccess" class="success-message hidden">
+        ✅ Thank you. Your report has been added to the demo dashboard.
+      </p>
+      <div class="privacy-notice">
+  <strong>Privacy Notice</strong>
+  <p>
+    This prototype stores demo reports only in your browser. In a full version,
+    personal details and screenshots would be protected, reviewed securely, and
+    shared only with authorized partners when necessary.
+  </p>
+</div>
+    </form>
+
+    <div class="report-info-card">
+      <h3>What should you report?</h3>
+
+      <div class="report-tip">
+        <strong>Suspicious links</strong>
+        <p>Links asking you to verify accounts, claim prizes, or update details.</p>
+      </div>
+
+      <div class="report-tip">
+        <strong>Mobile money fraud</strong>
+        <p>Messages asking for your PIN, OTP, approval, or reversal assistance.</p>
+      </div>
+
+      <div class="report-tip">
+        <strong>Fake opportunities</strong>
+        <p>Jobs, scholarships, investments, or travel offers asking for payment.</p>
+      </div>
+
+      <div class="report-tip">
+        <strong>Account takeover attempts</strong>
+        <p>Anyone asking for your WhatsApp, email, or social media verification code.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="dashboard" class="dashboard-section">
+  <div class="section-heading">
+    <span>Scam Alerts Dashboard</span>
+    <h2>Community-powered threat insights</h2>
+    <p>
+      View recent scam reports, high-risk alerts, affected platforms, and common
+      scam patterns across West Africa.
+    </p>
+  </div>
+  <div class="dashboard-actions">
+  <div class="dashboard-filters">
+    <input
+      type="text"
+      id="dashboardSearch"
+      placeholder="Search country, city, scam type, or platform..."
+      oninput="renderDashboard()"
+    />
+
+    <select id="riskFilter" onchange="renderDashboard()">
+      <option value="All">All Risk Levels</option>
+      <option value="High Risk">High Risk</option>
+      <option value="Medium Risk">Medium Risk</option>
+      <option value="Low Risk">Low Risk</option>
+    </select>
+  </div>
+
+  <div class="dashboard-button-group">
+  <button onclick="downloadReportsCSV()" class="download-button">
+    Download CSV
+  </button>
+
+  <button onclick="resetDemoReports()" class="reset-button">
+    Reset Demo Reports
+  </button>
+</div>
+</div>
+</div>
+  <div class="dashboard-cards">
+    <div class="dashboard-card">
+      <h3 id="totalReports">3</h3>
+      <p>Total Reports</p>
+    </div>
+
+    <div class="dashboard-card">
+      <h3 id="highRiskReports">2</h3>
+      <p>High-Risk Reports</p>
+    </div>
+
+    <div class="dashboard-card">
+      <h3 id="countriesCount">2</h3>
+      <p>Countries Reporting</p>
+    </div>
+
+    <div class="dashboard-card">
+      <h3 id="topPlatform">WhatsApp</h3>
+      <p>Top Platform</p>
+    </div>
+  </div>
+
+  <div class="dashboard-content">
+    <div class="threat-summary">
+      <h3>Threat Category Summary</h3>
+
+      <div id="threatList" class="threat-list">
+        <!-- Threat summary will appear here using JavaScript -->
+      </div>
+    </div>
+
+    <div class="reports-table-card">
+      <h3>Recent Scam Reports</h3>
+
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Country</th>
+              <th>City</th>
+              <th>Scam Type</th>
+              <th>Platform</th>
+              <th>Risk</th>
+            </tr>
+          </thead>
+
+          <tbody id="reportsTableBody">
+            <!-- Reports will appear here using JavaScript -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="learn" class="learn-section">
+  <div class="section-heading">
+    <span>Learn Cyber Safety</span>
+    <h2>Short lessons to protect yourself online</h2>
+    <p>
+      CyberShield also teaches citizens simple safety habits to prevent scams
+      before they happen.
+    </p>
+  </div>
+
+  <div class="learn-grid">
+    <div class="lesson-card">
+      <div class="lesson-icon">📱</div>
+      <h3>Mobile Money Safety</h3>
+      <p>
+        Learn how to avoid PIN theft, fake reversal messages, and suspicious
+        approval prompts.
+      </p>
+      <span>2-minute lesson</span>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-icon">🔐</div>
+      <h3>WhatsApp Protection</h3>
+      <p>
+        Protect your account from takeover by enabling two-step verification
+        and never sharing verification codes.
+      </p>
+      <span>2-minute lesson</span>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-icon">🔗</div>
+      <h3>Phishing Links</h3>
+      <p>
+        Learn how to identify fake links, suspicious domains, and messages that
+        pressure you to click quickly.
+      </p>
+      <span>3-minute lesson</span>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-icon">💼</div>
+      <h3>Fake Job Offers</h3>
+      <p>
+        Know the warning signs of fake recruitment messages, processing fees,
+        and fraudulent appointment letters.
+      </p>
+      <span>2-minute lesson</span>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-icon">💰</div>
+      <h3>Investment Scams</h3>
+      <p>
+        Avoid fake crypto, forex, and investment schemes promising guaranteed
+        profits or quick returns.
+      </p>
+      <span>3-minute lesson</span>
+    </div>
+
+    <div class="lesson-card">
+      <div class="lesson-icon">🤝</div>
+      <h3>Community Response</h3>
+      <p>
+        Learn what to do after a scam attempt: preserve evidence, warn others,
+        and report quickly.
+      </p>
+      <span>2-minute lesson</span>
+    </div>
+  </div>
+</section>
+<section class="partners-section">
+  <div class="partners-container">
+    <div class="partners-content">
+      <span class="section-tag">Regional Collaboration</span>
+      <h2>Built for citizens, communities, and institutions</h2>
+      <p>
+        CYBerShield West Africa can support collaboration between citizens,
+        schools, churches, youth groups, banks, telcos, and cybersecurity
+        institutions by turning scam reports into early-warning insights.
+      </p>
+
+      <div class="partner-list">
+        <div>🏦 Banks & Fintechs</div>
+        <div>📱 Telcos & Mobile Money Providers</div>
+        <div>🎓 Schools & Universities</div>
+        <div>🛡️ Cybersecurity Institutions</div>
+        <div>⛪ Churches & Community Groups</div>
+        <div>🌍 ECOWAS Member States</div>
+      </div>
+    </div>
+
+    <div class="partners-card">
+      <h3>Why collaboration matters</h3>
+      <p>
+        Scams spread quickly across borders through WhatsApp, social media,
+        mobile money, fake websites, and online investment groups.
+      </p>
+      <p>
+        A report from one country can help warn citizens in another country
+        before they become victims.
+      </p>
+      <div class="mini-alert">
+        ⚠️ Early reports can prevent wider harm.
+      </div>
+    </div>
+  </div>
+</section>
+<section class="cta-section">
+  <div class="cta-content">
+    <span>Ready to protect your community?</span>
+    <h2>Check, report, and share scam alerts before they spread.</h2>
+    <p>
+      CyberShield West Africa empowers citizens to become the first line of
+      defense against online fraud.
+    </p>
+
+    <div class="cta-buttons">
+      <a href="#checker" class="primary-button">Check a Message</a>
+      <a href="#report" class="secondary-button cta-secondary">Report a Scam</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-content">
+    <div>
+      <div class="footer-logo">
+        <div class="logo-icon">🛡️</div>
+        <div>
+          <h3>CYBerShield</h3>
+          <p>West Africa</p>
+        </div>
+      </div>
+
+      <p class="footer-description">
+        Community-powered cyber safety for the ECOWAS region.
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Platform</h4>
+      <a href="#checker">Check Message</a>
+      <a href="#report">Report Scam</a>
+      <a href="#dashboard">Dashboard</a>
+      <a href="#learn">Learn</a>
+    </div>
+
+    <div class="footer-links">
+      <h4>Focus Areas</h4>
+      <a href="#learn">Mobile Money Safety</a>
+      <a href="#learn">WhatsApp Protection</a>
+      <a href="#learn">Phishing Awareness</a>
+      <a href="#learn">Fake Job Scams</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>
+      CYBerShield provides educational and early-warning support. For urgent
+      cases, contact your bank, mobile money provider, or national cybersecurity
+      authority.
+    </p>
+    <span>© 2026 CYBerShield West Africa Prototype</span>
+  </div>
+</footer>
+  </main>
+<button onclick="scrollToTop()" id="backToTopBtn" class="back-to-top">
+  ↑
+</button>
+  <script src="script.js"></script>
+</body>
+</html>
